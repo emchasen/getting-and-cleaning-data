@@ -1,1 +1,3 @@
 This is a file describing the variables created in course_project.txt, created from the tidy_data data frame.
+
+This is edit #1
