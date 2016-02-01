@@ -1,8 +1,17 @@
-This is a file describing the variables created in course_project.txt, created from the tidy_data data frame.
+Data was collected from 30 volunteers wearing a smartphone (Samsung Galaxy S II) with sensor signals while performing six activities: 
+walking, walking upstairs, walking downstairs, sitting, standing and laying. 
+The tidy data set (course_project.txt) represents the average value for each subject-activity combination.
 
-Data was collected from 30 subjects wearing a smartphone (Samsung Galaxy S II) while performing six activities: walking, walking upstairs, walking downstairs, sitting, standing and laying. 
+For each subject-activity combination, data is recorded by sensor signals: accelerometer and gyroscrope. 
+The accelerometer is also filtered by gravitational and body motion components. Both time and frequency were collected for each feature. 
 
-For each subject-activity combination, data is recorded by sensor signals: accelerometer and gyroscrope. The accelerometer is also filtered by gravitational and body motion components. Both time and frequency were collected for each feature. 
+Variables for each subject/activity are classified as:
+1st) time vs frequency (“time” or “freq”)
+2nd) accounting for body movement or gravity (“Body” or “Gravity”)
+3rd) collected by either the accelerometer or the gyroscope (“Acc” or “Gyro”)
+4th)* body acceleration and velocity given in Jerk signals or the magnitude (“Jerk” or “Mag”)
+5th) the mean or standard deviation for each variable (“Mean” or “Stdev”) 
+last)* the axis of movement (“X”, “Y”, or “Z”)
 
-Variables are classified as:
-time vs frequency (time or freq)
+
+* denotes that this classification is only listed in the variable name when applicable
