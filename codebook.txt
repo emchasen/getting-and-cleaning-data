@@ -1,3 +1,8 @@
 This is a file describing the variables created in course_project.txt, created from the tidy_data data frame.
 
-This is edit #1
+Data was collected from 30 subjects wearing a smartphone (Samsung Galaxy S II) while performing six activities: walking, walking upstairs, walking downstairs, sitting, standing and laying. 
+
+For each subject-activity combination, data is recorded by sensor signals: accelerometer and gyroscrope. The accelerometer is also filtered by gravitational and body motion components. Both time and frequency were collected for each feature. 
+
+Variables are classified as:
+time vs frequency (time or freq)

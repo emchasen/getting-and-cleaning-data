@@ -85,11 +85,9 @@ library(dplyr)
         lblmean <- gsub("mean", "Mean", lbl)
         # change "std" to "Stdev"
         labels <- gsub("std", "Stdev", lblmean)
-        # sub "-" with ""
-        lbls1 <- gsub("[-]", "", labels)
         
         # add column names to data set!
-        colnames(set1) <- c("subject", "activity", lbls1)
+        colnames(set1) <- c("subject", "activity", labels)
 
 ### 5. From the data set in step 4, creates a second, independent tidy data set with 
 # the average of each variable for each activity and each subject.
