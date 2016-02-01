@@ -1,6 +1,6 @@
 Data was collected from 30 volunteers wearing a smartphone (Samsung Galaxy S II) with sensor signals while performing six activities: 
 walking, walking upstairs, walking downstairs, sitting, standing and laying. 
-The tidy data set (course_project.txt) represents the average value for each subject-activity combination.
+The tidy data set (Course_Project.txt) represents the average value for each subject-activity combination.
 
 For each subject-activity combination, data is recorded by sensor signals: accelerometer and gyroscrope. 
 The accelerometer is also filtered by gravitational and body motion components. Both time and frequency were collected for each feature. 
