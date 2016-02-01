@@ -16,4 +16,4 @@ The script is broken into 5 subheadings:
 4) Appropriately label the data set with descriptive variable names.
 5) Create a data set with the average of each variable for each activity and each subject.
 
-The tidy_data set was exported as a txt file: course_project.txt
+The tidy_data set was exported as a txt file: Course_Project.txt
